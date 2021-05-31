@@ -1,0 +1,253 @@
+/* navbar */
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #00AD45 !important;
+}
+
+.nav-link{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+/* jumbotron */
+.jumbotron{
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+    height: 700px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .display-4{
+    font-family: 'Montserrat', sans-serif;;
+    line-height: 100px;
+    font-size: 96px;
+    margin-top: 144px;
+    font-weight: bolder;
+}
+
+.jumbotron .garden{
+    font-family: 'Montserrat', sans-serif;;
+    line-height: 100px;
+    font-size: 86px;
+    margin-top: -10px;
+    font-weight: bolder;
+}
+
+/* info */
+
+.info img {
+    height: 384px;
+    width: 384px;
+}
+
+.info h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 44px;
+}
+
+.info h2 span {
+    color: #00AD45;
+}
+
+.info p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.info2 img {
+    height: 384px;
+    width: 384px;
+}
+
+.info2 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 44px;
+}
+
+.info2 h2 span {
+    color: #00AD45;
+}
+
+.info2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
+/* testimonial */
+.testi h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    
+}
+
+.komen img {
+    height: 392px;
+    width: 392px;
+    margin-top: 15px;
+    border-radius: round;
+}
+
+.komen p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+@media (min-width: 992px) {
+    
+    .navbar-brand{
+        color: #00AD45 !important;
+    }
+
+    .navbar-nav{
+        margin-left: 266px;
+    }
+
+    .nav-link{
+        padding-left: 57px;
+    }
+
+    .navbar .btn{
+        margin-left: 302px;
+        border-radius: 15px;
+        padding-top: 1px;
+        color: white;
+    }
+
+    .jumbotron{
+        margin-top: -75px;
+        height: 900px;
+        text-align: left;
+    }
+
+    .jumbotron .display-4 {
+        font-family: 'Montserrat', sans-serif;;
+        line-height: 100px;
+        font-size: 96px;
+        margin-top: 244px;
+        font-weight: bolder;
+    }
+
+    .jumbotron .garden{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 100px;
+        font-size: 96px;
+        margin-top: -10px;
+        font-weight: bolder;
+    }
+
+    .jumbotron .lead{
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 27px;
+    }
+
+    .info img {
+        height: 500px;
+        width: 500px;
+        margin-right: 736px;
+        margin-bottom: 225px;
+    }
+    
+    .info h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 159px;
+        text-align: left;
+        line-height: 44px;
+    }
+
+    .info2 h2 span {
+        color: #00AD45 !important;
+    }
+
+    .info p {
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .info2 img {
+        height: 584px;
+        width: 584px;
+        margin-bottom: 125px;
+    }
+    
+    .info2 h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 159px;
+        text-align: left;
+        line-height: 44px;
+    }
+
+    .info2 h2 span {
+        color: #00AD45 !important;
+    }
+
+    .info2 p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+    }
+
+    .plant h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+
+    .testi h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: left;
+        padding-bottom: 56px;
+    }
+
+    .komen img {
+        height: 410px;
+        width: 410px;
+        margin-bottom: 239px;
+    }
+
+    .komen p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        text-align: left;
+        font-size: 24px;
+        margin-top: 150px;
+        line-height: 29px;
+    }
+    
+
+}
